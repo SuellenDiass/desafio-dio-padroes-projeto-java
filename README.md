@@ -50,7 +50,7 @@ Foram criadas implementações diferentes, uma com o uso do singleton e a outra 
 
 ### _Meu projeto_
 
-Por está inciando no mundo da programação, optei em entregar o meu projeto usando apenas o java na IDE Eclipse. 
+Por está iniciando no mundo da programação, optei em entregar o meu projeto usando apenas o java na IDE Eclipse. 
 
 Para o projeto usei o assunto abordado acima, referente aos Padrões de Projetos :
 
