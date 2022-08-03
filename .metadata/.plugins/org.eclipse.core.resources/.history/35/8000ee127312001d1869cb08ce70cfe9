@@ -1,0 +1,9 @@
+// Tipos de jogadores
+
+package strategy;
+
+public class Jogadores {
+	Estrategia comportamento;
+	String tipo;
+
+}

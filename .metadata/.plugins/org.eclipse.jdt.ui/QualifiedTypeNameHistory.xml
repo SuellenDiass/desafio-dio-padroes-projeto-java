@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.strategy.Comportamento"/>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.strategy.ComportamentoDefensivo"/>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.strategy.ComportamentoNormal"/>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.strategy.ComportamentoAgressivo"/>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.strategy.Robo"/>
+    <fullyQualifiedTypeName name="subsistema1.crm.CrmService"/>
+    <fullyQualifiedTypeName name="subsistema2.cep.CepApi"/>
+    <fullyQualifiedTypeName name="one.digitalinnovation.gof.facade.Facade"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="singleton.CarrinhoDeCompra"/>
+    <fullyQualifiedTypeName name="facade.menu"/>
+    <fullyQualifiedTypeName name="facade.Menu"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+// Classe cliente
+// Criar dois jogadores
+// Fazem parte da Tropa de Elite 
+// Bandidos
+
+package strategy;
+
+public class ContraAtaque {
+
+	public static void main(String[] args) {
+		
+		Jogadores tropaDeElite = new Jogadores("Contra os bandidos");
+		Jogadores bandidos = new Jogadores("Contra a tropa de elite");
+		
+		tropaDeElite.setEstrategia(new EstrategiaDefensiva());
+		bandidos.setEstrategia(new EstrategiaAgressiva());
+
+	}
+
+}

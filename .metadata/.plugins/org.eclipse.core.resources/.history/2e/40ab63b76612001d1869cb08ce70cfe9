@@ -1,0 +1,28 @@
+package facade;
+
+public class Garcom {
+	
+	public static String delivery(Pedido pedido) {
+		
+		Ingredientes ingredientes = new Ingredientes();
+		
+		switch(pedido) {
+			case PIZZA:
+				Menu pizza = new Pizza();
+				String pizzaItems=ingredientes.getPizzaItems();
+				pizza.preparo(pizzaItems);
+				return pizza.Delivery();
+				
+				
+			case MASSA:	
+				Menu massa = new Massa1();
+				String massaItems = ingredientes.getMassaItems();
+				massa.preparo(massaItems);
+				return massa.Delivery();
+		
+		}
+		return null;
+		
+	}
+
+}

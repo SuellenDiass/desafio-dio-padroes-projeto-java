@@ -1,0 +1,20 @@
+package facade;
+
+public class Cliente1 {
+
+	public static void main(String[] args) {
+		Ingredientes ingredientes = new Ingredientes();
+		
+		Menu massa = new Massa1();
+		String massaItems = ingredientes.getMassaItems();
+		massa.preparo(massaItems);
+		System.out.println(massa.Delivery());
+		
+		Menu pizza = new Pizza();
+		String pizzaItems=ingredientes.getPizzaItems();
+		pizza.preparo(pizzaItems);
+		System.out.println(pizza.Delivery());
+
+	}
+
+}

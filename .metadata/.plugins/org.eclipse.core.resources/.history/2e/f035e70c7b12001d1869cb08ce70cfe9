@@ -1,0 +1,15 @@
+// Criar uma classe EstrategiaDefensiva
+// Implementar interface Estrategia
+//
+
+package strategy;
+
+public class EstrategiaRendicao implements Estrategia {
+
+	@Override
+	public void comandoDeAcao() {
+		System.out.println("Estratégia defensiva, proteger a si mesmo e ao companheiro de equipe");
+		
+	}
+
+}

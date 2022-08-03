@@ -1,0 +1,20 @@
+package facade;
+
+public class Massa implements menu{
+	public String prepararItem;
+
+	@Override
+	public void preparo(String itemsSolicitados) {
+		
+		prepararItem = "Pizza de calabreza"+ itemsSolicitados;
+		
+		
+	}
+
+	@Override
+	public String Delivery() {
+		
+		return prepararItem;
+	}
+
+}

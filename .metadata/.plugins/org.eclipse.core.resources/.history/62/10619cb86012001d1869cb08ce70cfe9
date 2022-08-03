@@ -1,0 +1,9 @@
+// metodos abstratos , items solicitados e Delivery
+
+package facade;
+
+public interface Menu {
+	public void preparo(String itemsSolicitados);
+	public String Delivery();
+
+}

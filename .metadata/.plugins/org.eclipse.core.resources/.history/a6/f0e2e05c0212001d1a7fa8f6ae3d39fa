@@ -1,0 +1,20 @@
+package facade;
+
+public class Massa1 implements Menu{
+	public String prepararItem;
+
+	@Override
+	public void preparo(String itemsSolicitados) {
+		
+		prepararItem = "_Lazanha de frango com molho branco_" + itemsSolicitados;
+		
+		
+	}
+
+	@Override
+	public String Delivery() {
+		
+		return prepararItem;
+	}
+
+}

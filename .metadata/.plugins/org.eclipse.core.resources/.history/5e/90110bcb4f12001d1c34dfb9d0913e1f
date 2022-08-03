@@ -1,0 +1,13 @@
+package facade;
+
+public class Ingredientes {
+	public String getPizzaItems() {
+		return "massa, molho, calabreza";
+	}
+	
+	public String getMassaItems() {
+		return "massa, molho branco, frango desfiado, presunto,mussarela";
+	}
+	
+
+}

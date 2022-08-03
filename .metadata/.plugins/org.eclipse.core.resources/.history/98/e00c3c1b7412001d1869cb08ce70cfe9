@@ -1,0 +1,10 @@
+// Tipos de jogadores com comportamentos diferentes
+// Podendo ser terrorista ou anti-terrorista
+
+package strategy;
+
+public class Jogadores {
+	Estrategia comportamento;
+	String tipo;
+
+}

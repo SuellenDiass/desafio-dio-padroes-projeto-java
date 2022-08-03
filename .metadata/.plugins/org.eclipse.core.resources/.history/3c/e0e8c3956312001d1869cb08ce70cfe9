@@ -1,0 +1,24 @@
+// No método preparo para preparar o pedido
+// No método Delivery apenas retorna o item preparado
+
+
+package facade;
+
+public class Pizza implements Menu{
+	public String prepararItem;
+
+	@Override
+	public void preparo(String itemsSolicitados) {
+		
+		prepararItem = "_Pizza de calabreza_:" + itemsSolicitados;
+		
+		
+	}
+
+	@Override
+	public String Delivery() {
+		
+		return prepararItem;
+	}
+
+}

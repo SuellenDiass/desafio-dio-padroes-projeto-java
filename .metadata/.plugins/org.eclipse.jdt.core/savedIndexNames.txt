@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Suellenn\Desktop\Bootcamp Dio\Dio Santander\JAVA\Explorando Padrões de Projetos na Prática com Java\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2410366565.index
+3705029543.index

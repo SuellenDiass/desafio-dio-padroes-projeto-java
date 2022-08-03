@@ -1,0 +1,28 @@
+// Classe Cliente1 visita o restaurante e checa o menu e faz o pedido
+//
+
+package facade;
+
+public class Cliente1 {
+
+	public static void main(String[] args) {
+		Ingredientes ingredientes = new Ingredientes();
+		
+		Menu massa = new Massa1();
+		String massaItems = ingredientes.getMassaItems();
+		massa.preparo(massaItems);
+		System.out.println(massa.Delivery());
+		
+		Menu pizza = new Pizza();
+		String pizzaItems=ingredientes.getPizzaItems();
+		pizza.preparo(pizzaItems);
+		System.out.println(pizza.Delivery());
+		
+		System.out.println("--- Facade ---");
+		
+		System.out.println(Garcom.delivery(Pedido.MASSA));
+		System.out.println(Garcom.delivery(Pedido.PIZZA));
+
+	}
+
+}

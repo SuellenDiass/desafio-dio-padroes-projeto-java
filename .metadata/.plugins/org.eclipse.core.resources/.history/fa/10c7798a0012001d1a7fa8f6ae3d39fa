@@ -1,0 +1,21 @@
+package facade;
+
+public class Massa implements Menu{
+	public String prepararItem;
+
+	public void preparo(String itemsSolicitados) {
+		
+		prepararItem = "Lazanha"+ itemsSolicitados;
+		
+		
+	}
+
+	@Override
+	public String Delivery() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

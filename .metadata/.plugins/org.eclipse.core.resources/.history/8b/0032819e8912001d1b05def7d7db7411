@@ -1,0 +1,27 @@
+package one.digitalinnovation.gof.singleton;
+
+
+/** SingletonLazyHolder vai encapsular essa instancia em uma classe estátca*
+ * interna que ele vai chamar de holder**/
+/**  **/
+/** **/
+/** **/
+
+public class SingletonLazyHolder {
+	
+	private static class InstanceHolder{
+	 public static SingletonLazyHolder instancia = new SingletonLazyHolder();
+	}
+	
+	private SingletonLazyHolder() {
+		super();
+	}
+	
+	public static SingletonLazyHolder getInstancia() {
+		
+		return InstanceHolder.instancia;
+	}
+	
+	
+
+}

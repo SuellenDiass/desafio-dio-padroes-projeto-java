@@ -1,0 +1,26 @@
+// Tipos de jogadores com comportamentos diferentes
+// Podendo ser Bandidos ou Tropa de Elite
+// Sobrecarregar o construtor e atribuir o tipo de jogadores
+// Definir o tipo de comportamento deles, agressivo ou defensivo
+// Metodo ação para executar algum comando
+
+package strategy;
+
+public class Jogadores {
+	Estrategia comportamento;
+	String tipo;
+	
+	public Jogadores(String tipo) {
+		this.tipo = tipo;
+	}
+	public void setEstrategia(Estrategia comportamento) {
+		this.comportamento = comportamento;
+	}
+	public void acao() {
+		System.out.println("Jogador: " + this.tipo);
+// invocando comportamento
+		comportamento.comandoDeAcao();
+	
+	}
+
+}
