@@ -76,3 +76,10 @@ Segue abaixo o vídeo onde tirei a base dos estudos
 
 https://www.youtube.com/watch?v=I0xWD1hQlW8
 
+### Curso feito na Dio.me com o professor Venilton Falvo Jr- Tech Lead na Dio 
+
+## links úteis
+
+[sintaxe basica markdown](https://www.dio.me/)
+
+
